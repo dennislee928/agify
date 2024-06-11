@@ -1,0 +1,14 @@
+.input,
+.button,
+.card {
+  margin: 15px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; /* Stacks children vertically */
+  justify-content: center; /* Centers children along the main axis (vertical) */
+  align-items: center; /* Centers children along the cross axis (horizontal) */
+  height: 100vh; /* Ensures the container takes up full viewport height */
+}
